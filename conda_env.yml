@@ -1,0 +1,13 @@
+name: common
+channels:
+  - default
+  - conda-forge
+  - bioconda
+dependencies:
+  - pbccs
+  - pbmm2
+  - pbtk
+  - pip
+  - pip:
+    - pysam
+    - pandas
